@@ -1,5 +1,5 @@
 let n1; //erschaft Variablen
-let n2;
+let n2; //erschaft Variablen n2 und weist ihr die Zahl aus Textfeld 2 zu
 let n3;
 let n4;
 let n5;
