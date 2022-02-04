@@ -1,10 +1,10 @@
-let n1; //erschaft Variablen
-let n2; //erschaft Variablen n2 und weist ihr die Zahl aus Textfeld 2 zu
-let n3;
+let n1; //erschafft Variablen
+let n2; //erschafft Variablen n2 und weist ihr die Zahl aus Textfeld 2 zu
+let n3;//test 123
 let n4;
 let n5;
 let ergebnis;
-let anzahlNoten = 0; //erscahfft Anzahl der Noten mit dem Startwert 0
+let anzahlNoten = 0; //erschafft Anzahl der Noten mit dem Startwert 0
 let summe = 0;       //summe der Textfelder mit dem Startwert 0
 
 function tfAuslesen () {
@@ -29,15 +29,15 @@ document.getElementById("ausgabe").innerHTML = ergebnis;//ersetzt das Feld ausga
 
 if (ergebnis <=5)
     {
-        document.getElementById("ausgabe").style.color = "crimson"; //färbt Durchschnitt rot wenn er unter 5 Punkten ist
+        document.getElementById("ausgabe").style.color = "crimson"; //färbt Durchschnitt rot, wenn er unter 5 Punkten ist
     }
 
     if (ergebnis >5 && ergebnis <12.5){
-        document.getElementById("ausgabe").style.color = "orange" // färbt Durchschnitt orange wenn er über 5 und unter 12.5 Punkten ist
+        document.getElementById("ausgabe").style.color = "orange" // färbt Durchschnitt orange, wenn er über 5 und unter 12.5 Punkten ist
     }
 
     if (ergebnis >12.5){
-        document.getElementById("ausgabe").style.color = "green"// färbt Durchschnitt grün wenn er über 12.5 ist
+        document.getElementById("ausgabe").style.color = "green"// färbt Durchschnitt grün, wenn er über 12.5 ist
     }
 
 
@@ -54,7 +54,7 @@ function punktePruefen(punkte) { //Prüft eingetragen Noten ob es eine Zahl ist 
                 console.log(punkte + "sind keine möglichen Notenpunkte!")// gibt Fehlermeldung in der Konsole(F12) aus
             }else
             {
-                summe = summe + punkte;                //wenn mögliche Notenpunkte in den Textfelder sind rechnet der Computer sie zusammen
+                summe = summe + punkte;                //wenn mögliche Notenpunkte in den Textfeldern stehen rechnet der Computer sie zusammen
                 anzahlNoten= anzahlNoten + 1;          //und berechnet die Anzahl der betrachteten Noten
             }
 }
